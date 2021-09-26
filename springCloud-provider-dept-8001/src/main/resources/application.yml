@@ -15,3 +15,15 @@ spring:
     url: jdbc:mysql://47.113.218.78:3306/db01?useUnicode=true&characterEncoding=utf-8
     username: root
     password: syxsyx
+
+# 注册自己的服务
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/,http://localhost:7003/eureka/,http://localhost:7002/eureka/
+  instance: # 配置默认描述
+    instance-id: springCloud-provider-dept-8001
+
+info: #actuator
+  app.name: syx-springCloud
+  company.name: syx
