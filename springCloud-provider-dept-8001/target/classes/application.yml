@@ -8,7 +8,7 @@ mybatis:
 
 spring:
   application:
-    name: springCloud-provider-dept
+    name: springCloud-provider-dept #3个服务名称一致
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
