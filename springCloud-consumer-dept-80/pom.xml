@@ -17,7 +17,7 @@
     </properties>
 
     <dependencies>
-<!--        实体类加web-->
+        <!--        实体类加web-->
         <dependency>
             <groupId>com.syx</groupId>
             <artifactId>springCloud-api</artifactId>
@@ -34,7 +34,7 @@
             <artifactId>spring-boot-devtools</artifactId>
         </dependency>
 
-<!--        ribbon-->
+        <!--        ribbon-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-ribbon</artifactId>

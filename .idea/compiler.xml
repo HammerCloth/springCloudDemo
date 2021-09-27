@@ -8,6 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springCloud-provider-dept-8001" />
+        <module name="springCloud-provider-dept-8002" />
+        <module name="springCloud-provider-dept-8003" />
         <module name="springCloud-consumer-dept-80" />
         <module name="springCloud-api" />
         <module name="springCloud-eureka-7003" />

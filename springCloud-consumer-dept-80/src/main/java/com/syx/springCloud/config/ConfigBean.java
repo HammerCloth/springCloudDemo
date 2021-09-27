@@ -16,7 +16,7 @@ public class ConfigBean {
     //配置负载均衡RestTemplate
     @Bean
     @LoadBalanced //ribbon
-    public RestTemplate restTemplate(){
+    public RestTemplate restTemplate() {
         return new RestTemplate();
     }
 
