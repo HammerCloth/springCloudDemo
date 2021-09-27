@@ -1,5 +1,7 @@
 package com.syx.springCloud.config;
 
+import com.netflix.loadbalancer.IRule;
+import com.netflix.loadbalancer.RandomRule;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -14,6 +16,7 @@ import org.springframework.web.client.RestTemplate;
 public class ConfigBean {
 
     //配置负载均衡RestTemplate
+    //IRule
     @Bean
     @LoadBalanced //ribbon
     public RestTemplate restTemplate() {
