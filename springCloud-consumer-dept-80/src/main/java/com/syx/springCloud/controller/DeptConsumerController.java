@@ -21,8 +21,9 @@ public class DeptConsumerController {
     @Autowired
     private RestTemplate restTemplate;
 
-    private static final String REST_URL_PREFIX = "http://localhost:8001";
-
+    //通过ribbon实现的时候，这个地址应该是一个变量，是注册中心服务的id，通过服务名来访问
+    //private static final String REST_URL_PREFIX = "http://localhost:8001";
+    private static final String REST_URL_PREFIX = "http://SPRINGCLOUD-PROVIDER-DEPT";
     @RequestMapping("/consumer/dept/get/{id}")
     public Dept get(@PathVariable("id") Long id) {
         return restTemplate.getForObject(REST_URL_PREFIX + "/dept/get/" + id, Dept.class);
