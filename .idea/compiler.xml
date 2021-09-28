@@ -11,6 +11,7 @@
         <module name="springCloud-provider-dept-8001" />
         <module name="springCloud-provider-dept-8002" />
         <module name="springCloud-provider-dept-8003" />
+        <module name="springCloud-zuul-9527" />
         <module name="springCloud-consumer-dept-feign" />
         <module name="springCloud-provider-dept-hystrix-8001" />
         <module name="springCloud-consumer-dept-80" />
