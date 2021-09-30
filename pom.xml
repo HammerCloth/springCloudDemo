@@ -20,6 +20,7 @@
         <module>springCloud-provider-dept-hystrix-8001</module>
         <module>springCloud-consumer-hystrix-dashboard</module>
         <module>springCloud-zuul-9527</module>
+        <module>springCloud-config-server-3344</module>
     </modules>
 
     <!--打包方式-->
